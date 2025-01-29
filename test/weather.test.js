@@ -1,30 +1,3 @@
-// import request from "supertest";
-// import { expect } from "chai";
-// import app from "../server.js"; // Ensure server.js also uses ESM (see below)
-
-// describe("Custom Weather API Tests", function () {
-//   it("should return weather data for a valid city", async () => {
-//     const response = await request(app).get("/weather?city=Mumbai");
-
-//     expect(response.status).to.equal(200);
-//     expect(response.body).to.include.keys("city", "temperature", "condition", "humidity");
-//   });
-
-//   it("should return 400 for missing city parameter", async () => {
-//     const response = await request(app).get("/weather");
-
-//     expect(response.status).to.equal(400);
-//     expect(response.body.error).to.equal("City parameter is required");
-//   });
-
-//   it("should return 404 for an invalid city", async () => {
-//     const response = await request(app).get("/weather?city=UnknownCity");
-
-//     expect(response.status).to.equal(404);
-//     expect(response.body.error).to.equal("City not found");
-//   });
-// });
-
 import request from "supertest";
 import { expect } from "chai";
 import app from "../server.js";

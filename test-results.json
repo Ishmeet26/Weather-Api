@@ -1,0 +1,198 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 10,
+    "passes": 10,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-01-29T17:55:42.340Z",
+    "end": "2025-01-29T17:55:42.424Z",
+    "duration": 84
+  },
+  "tests": [
+    {
+      "title": "should return weather data for a valid city",
+      "fullTitle": "Custom Weather API Tests should return weather data for a valid city",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 400 for missing city parameter",
+      "fullTitle": "Custom Weather API Tests should return 400 for missing city parameter",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 6,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for an invalid city",
+      "fullTitle": "Custom Weather API Tests should return 404 for an invalid city",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return weather data for a valid city with different casing",
+      "fullTitle": "Custom Weather API Tests should return weather data for a valid city with different casing",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return the correct response structure",
+      "fullTitle": "Custom Weather API Tests should return the correct response structure",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for numeric city name",
+      "fullTitle": "Custom Weather API Tests should return 404 for numeric city name",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for city name with special characters",
+      "fullTitle": "Custom Weather API Tests should return 404 for city name with special characters",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return weather data even with extra query parameters",
+      "fullTitle": "Custom Weather API Tests should return weather data even with extra query parameters",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return application/json content type",
+      "fullTitle": "Custom Weather API Tests should return application/json content type",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 6,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should respond within 200ms",
+      "fullTitle": "Custom Weather API Tests should respond within 200ms",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should return weather data for a valid city",
+      "fullTitle": "Custom Weather API Tests should return weather data for a valid city",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 400 for missing city parameter",
+      "fullTitle": "Custom Weather API Tests should return 400 for missing city parameter",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 6,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for an invalid city",
+      "fullTitle": "Custom Weather API Tests should return 404 for an invalid city",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return weather data for a valid city with different casing",
+      "fullTitle": "Custom Weather API Tests should return weather data for a valid city with different casing",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return the correct response structure",
+      "fullTitle": "Custom Weather API Tests should return the correct response structure",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for numeric city name",
+      "fullTitle": "Custom Weather API Tests should return 404 for numeric city name",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return 404 for city name with special characters",
+      "fullTitle": "Custom Weather API Tests should return 404 for city name with special characters",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return weather data even with extra query parameters",
+      "fullTitle": "Custom Weather API Tests should return weather data even with extra query parameters",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 4,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should return application/json content type",
+      "fullTitle": "Custom Weather API Tests should return application/json content type",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 6,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "should respond within 200ms",
+      "fullTitle": "Custom Weather API Tests should respond within 200ms",
+      "file": "D:\\WeatherAppTestCase\\test\\weather.test.js",
+      "duration": 5,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

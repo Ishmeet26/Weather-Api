@@ -1,0 +1,84 @@
+Test Case 1: Valid City - Mumbai
+Request: GET /weather?city=Mumbai
+Response:
+{
+  "city": "Mumbai",
+  "temperature": 30,
+  "condition": "Sunny",
+  "humidity": 70
+}
+
+Test Case 2: Missing City Parameter
+Request: GET /weather
+Response: {
+  "error": "City parameter is required"
+}
+
+Test Case 3: Invalid City Name
+Request:GET /weather?city=UnknownCity
+Response:
+{
+  "error": "City not found"
+}
+
+Test Case 4: Case-Insensitive City Name
+Request:GET /weather?city=mumbai
+Response:
+{
+  "city": "Mumbai",
+  "temperature": 30,
+  "condition": "Sunny",
+  "humidity": 70
+}
+
+Test Case 5: Check Response Structure for Valid City
+Request: GET /weather?city=Delhi
+Response:
+{
+  "city": "Delhi",
+  "temperature": 25,
+  "condition": "Cloudy",
+  "humidity": 60
+}
+
+Test Case 6: Edge Case - Numeric City Name
+Request: GET /weather?city=12345
+Response: {
+  "error": "City not found"
+}
+
+Test Case 7: Special Characters in City Name
+Request: GET /weather?city=Del#hi
+Response:
+{
+  "error": "City not found"
+}
+
+Test Case 8: Extra Query Parameters (Should Ignore Extra Parameters)
+Request: GET /weather?city=Bangalore&unit=celsius
+Response:
+{
+  "city": "Bangalore",
+  "temperature": 28,
+  "condition": "Partly Cloudy",
+  "humidity": 65
+}
+
+Test Case 9: Ensure Response Headers are Correct
+Request: GET /weather?city=Chennai
+Response Headers: Content-Type: application/json
+Response Body: {
+  "city": "Chennai",
+  "temperature": 32,
+  "condition": "Rainy",
+  "humidity": 80
+}
+
+Test Case 10: Check Response Time (Performance)
+Request: GET /weather?city=Pune
+Response: {
+  "city": "Pune",
+  "temperature": 27,
+  "condition": "Clear",
+  "humidity": 55
+}
